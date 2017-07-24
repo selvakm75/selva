@@ -2,19 +2,14 @@
 #include <string.h>
 void main()
 {
-char str[100];
-int i = 0, l = 0, k= 1;
-puts("Enter any string\n");
-gets(str);
-for(i = 0; str[i] !='\0'; i++)
+char s[200];
+int count = 0, i;
+printf("enter the string\n");
+scanf("%[^\n]s", s);
+for (i = 0;s[i] != '\0';i++)
 {
-l = l + 1;
+if (s[i] == ' ')
+count++;    
 }
-printf("\n%d"word);
-for(i = 0; i <= l-1; i++)
-{
-if(str[i] == ' ')
-{
-k = k + 1;
+printf("number of words in given string ");
 }
-}}
