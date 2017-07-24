@@ -10,13 +10,11 @@ for(i = 0; str[i] !='\0'; i++)
 {
 l = l + 1;
 }
-printf("The number of characters in the string ");
+printf("\n%d"word);
 for(i = 0; i <= l-1; i++)
 {
 if(str[i] == ' ')
 {
 k = k + 1;
 }
-}
-printf("The number of words in the string ");
-}
+}}
